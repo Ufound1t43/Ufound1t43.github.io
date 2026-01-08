@@ -2,96 +2,99 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://Ufound1t43.github.io/</loc>
+    <loc>https://example.com/</loc>
+    <lastmod>2026-01-08T19:25:46+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/p/kamerrader/</loc>
+    <lastmod>2026-01-08T19:25:46+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/post/</loc>
+    <lastmod>2026-01-08T19:25:46+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/p/myfirstpost/</loc>
     <lastmod>2026-01-08T07:23:03+08:00</lastmod>
   </url><url>
-    <loc>https://Ufound1t43.github.io/p/myfirstpost/</loc>
-    <lastmod>2026-01-08T07:23:03+08:00</lastmod>
-  </url><url>
-    <loc>https://Ufound1t43.github.io/post/</loc>
-    <lastmod>2026-01-08T07:23:03+08:00</lastmod>
-  </url><url>
-    <loc>https://Ufound1t43.github.io/categories/</loc>
+    <loc>https://example.com/categories/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Ufound1t43.github.io/p/test-chinese/</loc>
+    <loc>https://example.com/p/test-chinese/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Ufound1t43.github.io/categories/test/</loc>
+    <loc>https://example.com/categories/test/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Ufound1t43.github.io/categories/%E6%B5%8B%E8%AF%95/</loc>
+    <loc>https://example.com/categories/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Ufound1t43.github.io/archives/</loc>
+    <loc>https://example.com/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Ufound1t43.github.io/page/</loc>
+    <loc>https://example.com/page/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Ufound1t43.github.io/tags/css/</loc>
+    <loc>https://example.com/tags/css/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Ufound1t43.github.io/tags/html/</loc>
+    <loc>https://example.com/tags/html/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Ufound1t43.github.io/tags/markdown/</loc>
+    <loc>https://example.com/tags/markdown/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Ufound1t43.github.io/p/markdown-syntax-guide/</loc>
+    <loc>https://example.com/p/markdown-syntax-guide/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Ufound1t43.github.io/categories/syntax/</loc>
+    <loc>https://example.com/categories/syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Ufound1t43.github.io/tags/</loc>
+    <loc>https://example.com/tags/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Ufound1t43.github.io/categories/themes/</loc>
+    <loc>https://example.com/categories/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Ufound1t43.github.io/tags/themes/</loc>
+    <loc>https://example.com/tags/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Ufound1t43.github.io/p/placeholder-text/</loc>
+    <loc>https://example.com/p/placeholder-text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Ufound1t43.github.io/tags/tag-with-whitespaces/</loc>
+    <loc>https://example.com/tags/tag-with-whitespaces/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Ufound1t43.github.io/categories/test-with-whitespaces/</loc>
+    <loc>https://example.com/categories/test-with-whitespaces/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Ufound1t43.github.io/tags/text/</loc>
+    <loc>https://example.com/tags/text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Ufound1t43.github.io/p/math-typesetting/</loc>
+    <loc>https://example.com/p/math-typesetting/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Ufound1t43.github.io/tags/emoji/</loc>
+    <loc>https://example.com/tags/emoji/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Ufound1t43.github.io/p/emoji-support/</loc>
+    <loc>https://example.com/p/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Ufound1t43.github.io/categories/%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9/</loc>
+    <loc>https://example.com/categories/%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9/</loc>
   </url><url>
-    <loc>https://Ufound1t43.github.io/categories/%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D9%85%D8%B9-%D9%81%D8%B1%D8%A7%D8%BA%D8%A7%D8%AA/</loc>
+    <loc>https://example.com/categories/%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D9%85%D8%B9-%D9%81%D8%B1%D8%A7%D8%BA%D8%A7%D8%AA/</loc>
   </url><url>
-    <loc>https://Ufound1t43.github.io/tags/%D9%85%D8%A7%D8%B1%D9%83%D8%AF%D8%A7%D9%88%D9%86/</loc>
+    <loc>https://example.com/tags/%D9%85%D8%A7%D8%B1%D9%83%D8%AF%D8%A7%D9%88%D9%86/</loc>
   </url><url>
-    <loc>https://Ufound1t43.github.io/tags/%D9%86%D8%B5/</loc>
+    <loc>https://example.com/tags/%D9%86%D8%B5/</loc>
   </url><url>
-    <loc>https://Ufound1t43.github.io/tags/%D9%88%D8%B3%D9%85-%D9%85%D8%B9-%D9%81%D8%B1%D8%A7%D8%BA%D8%A7%D8%AA/</loc>
+    <loc>https://example.com/tags/%D9%88%D8%B3%D9%85-%D9%85%D8%B9-%D9%81%D8%B1%D8%A7%D8%BA%D8%A7%D8%AA/</loc>
   </url><url>
-    <loc>https://Ufound1t43.github.io/categories/%E3%83%86%E3%82%B9%E3%83%88/</loc>
+    <loc>https://example.com/categories/%E3%83%86%E3%82%B9%E3%83%88/</loc>
   </url><url>
-    <loc>https://Ufound1t43.github.io/categories/%E6%B8%AC%E8%A9%A6/</loc>
+    <loc>https://example.com/categories/%E6%B8%AC%E8%A9%A6/</loc>
   </url><url>
-    <loc>https://Ufound1t43.github.io/%E5%85%B3%E4%BA%8E/</loc>
+    <loc>https://example.com/%E5%85%B3%E4%BA%8E/</loc>
   </url><url>
-    <loc>https://Ufound1t43.github.io/search/</loc>
+    <loc>https://example.com/search/</loc>
   </url><url>
-    <loc>https://Ufound1t43.github.io/%E5%8F%8B%E9%93%BE/</loc>
+    <loc>https://example.com/%E5%8F%8B%E9%93%BE/</loc>
   </url>
 </urlset>

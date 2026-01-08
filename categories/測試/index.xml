@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>測試 on 降雨机率</title>
-        <link>https://Ufound1t43.github.io/categories/%E6%B8%AC%E8%A9%A6/</link>
+        <link>https://example.com/categories/%E6%B8%AC%E8%A9%A6/</link>
         <description>Recent content in 測試 on 降雨机率</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <copyright>3pm4am</copyright><atom:link href="https://Ufound1t43.github.io/categories/%E6%B8%AC%E8%A9%A6/index.xml" rel="self" type="application/rss+xml" />
+        <copyright>3pm4am</copyright><atom:link href="https://example.com/categories/%E6%B8%AC%E8%A9%A6/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>
