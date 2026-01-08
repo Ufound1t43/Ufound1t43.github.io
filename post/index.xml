@@ -16,15 +16,6 @@
         <description></description>
         </item>
         <item>
-        <title>Myfirstpost</title>
-        <link>https://example.com/p/myfirstpost/</link>
-        <pubDate>Thu, 08 Jan 2026 07:23:03 +0800</pubDate>
-        
-        <guid>https://example.com/p/myfirstpost/</guid>
-        <description>&lt;p&gt;测试文字&lt;/p&gt;
-</description>
-        </item>
-        <item>
         <title>Chinese Test</title>
         <link>https://example.com/p/test-chinese/</link>
         <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
