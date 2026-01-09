@@ -259,7 +259,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.c922af694cc257bf1ecc41c0dd7b0430f9114ec280ccf67cd2c6ad55f5316c4e.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.b4654cd74006fe7475d7723cd7373672b5ea2035ab23404eb9ff511cb27b581c.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
@@ -349,10 +349,75 @@
 </script>
 <script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script>
 
+
+    
+    <script src=https://example.com/js/topbar.min.js></script>
+
+
 <script>
     var pjax = new Pjax({
         selectors: [".main-container"]
     })
+	
+	pjax._handleResponse = pjax.handleResponse;
+	
+	pjax.handleResponse = function(responseText, request, href, options) {
+	  if (request.responseText.match("<html")) {
+	     
+	    let newDom = new DOMParser().parseFromString(responseText, 'text/html');
+	    
+	    let bodyClass = newDom.body.className;
+	    document.body.setAttribute("class", bodyClass)
+		
+	    pjax._handleResponse(responseText, request, href, options);
+	   } else {
+	     
+	   }
+    }
+	
+	
+	    topbar.config({
+	        barColors: {
+	            '0': 'rgba(255,  255, 255, 1)', 
+	            '1.0': 'rgba(0, 170, 14, 1.0)' 
+	        }
+	    })
+	
+	document.addEventListener('pjax:send', () => {
+	        topbar.show();
+	    })
+		
+	document.addEventListener('pjax:complete', () => {
+	        
+	        window.Stack.init();
+			
+			topbar.hide();
+	    })
 </script>
+
+
+
+<style>
+  @font-face {
+    font-family: 'SourceHanSerifCN-Regular-6';
+    src: url('/font/SourceHanSerifCN-Regular-6.ttf') format('truetype');
+    font-display: swap;
+  }
+
+  :root {
+    --base-font-family: 'SourceHanSerifCN-Regular-6', serif;
+    --code-font-family: 'SourceHanSerifCN-Regular-6', monospace;
+  }
+</style>
+
+
+<style>
+  body {
+    background: url(https://example.com/background/ds.png) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+</style>
+
     </body>
 </html>
