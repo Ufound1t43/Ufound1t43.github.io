@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://example.com/categories/'>
 
-<link rel="stylesheet" href="/scss/style.min.833d6eed45de56f48306bf57268d5b8cdfc8a60e8e7bdc99810464fcd033f7c6.css"><meta property='og:title' content="Categories">
+<link rel="stylesheet" href="/scss/style.min.b2944aefbc8b344c6292fb41518c34f1bd83bcd18dcd140857d69eb44e5fe98f.css"><meta property='og:title' content="Categories">
 <meta property='og:description' content="请在此处有序领取本影院排片表">
 <meta property='og:url' content='https://example.com/categories/'>
 <meta property='og:site_name' content='降雨机率'>
@@ -364,6 +364,85 @@
         document.head.appendChild(customFont);
     }());
 </script>
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
 
+<div id="aplayer"></div>
+
+<script>
+	
+	const musicDir = "https://example.com/" + 'music/';
+	const songs = [
+		'削いで、-r906',
+		'조깅-LUCY',
+		'もうじき夏が終わるから-nbuna',
+		'Love is lonely-NMIXX',
+		'フィクションブルー-Ayase',
+		'Endless-onewe',
+		'tat-hitorie',
+		'Doughnut-Twice',
+		'Ditto-Newjeans',
+		'Rooftop-Nflying'
+	];
+	let audios = [];
+	songs.forEach((item)=> {
+		const songInfo = item.split('-');
+		audios.push({
+			name: songInfo[0],
+			artist: songInfo[1],
+			url: musicDir + item + '/song.mp3',
+			cover: musicDir + item + '/cover.png',
+			lrc: musicDir + item + '/lyric.lrc'
+		});
+	})
+	const ap = new APlayer({
+	    container: document.getElementById('aplayer'),
+		fixed: true,
+		lrcType: 3,
+	    audio: audios
+	});
+	
+	
+	    
+
+	    window.onbeforeunload = () => {
+	        
+	        const playInfo = {
+	            index: ap.list.index,
+	            currentTime: ap.audio.currentTime,
+	            paused: ap.paused
+	        };
+	        localStorage.setItem("playInfo", JSON.stringify(playInfo));
+	    };
+	
+	    
+
+	    window.onload = () => {
+	        
+	        const playInfo = JSON.parse(localStorage.getItem("playInfo"));
+	        if (!playInfo) {
+	            return;
+	        }
+	        
+	        ap.list.switch(playInfo.index);
+	        
+	        setTimeout(() => {
+	            
+	            ap.seek(playInfo.currentTime);
+	            
+	            if (!playInfo.paused) {
+	                ap.play()
+	            }
+	        }, 500);
+	    };
+	</script>
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script>
+
+<script>
+    var pjax = new Pjax({
+        selectors: [".main-container"]
+    })
+</script>
     </body>
 </html>
