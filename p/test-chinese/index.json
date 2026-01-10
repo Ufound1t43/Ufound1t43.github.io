@@ -1,0 +1,11 @@
+[{
+    "title": "My First Post",
+    "date": "2026-01-09",
+    "url": "/p/my-first-post/",
+    "categories": "25年动画"
+  },{
+    "title": "Chinese Test",
+    "date": "2020-09-09",
+    "url": "/p/test-chinese/",
+    "categories": ["Test","测试"]
+  }]

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>25年动画 on 降雨机率</title>
+        <link>https://example.com/categories/25%E5%B9%B4%E5%8A%A8%E7%94%BB/</link>
+        <description>Recent content in 25年动画 on 降雨机率</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>3pm4am</copyright>
+        <lastBuildDate>Fri, 09 Jan 2026 00:00:00 +0800</lastBuildDate><atom:link href="https://example.com/categories/25%E5%B9%B4%E5%8A%A8%E7%94%BB/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>My First Post</title>
+        <link>https://example.com/p/my-first-post/</link>
+        <pubDate>Fri, 09 Jan 2026 00:00:00 +0800</pubDate>
+        
+        <guid>https://example.com/p/my-first-post/</guid>
+        <description>&lt;p&gt;-&lt;a class=&#34;link&#34; href=&#34;https://movie.douban.com/subject/1292064/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;豆瓣&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

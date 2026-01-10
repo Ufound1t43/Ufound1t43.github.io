@@ -6,14 +6,18 @@
 
 <link rel='canonical' href='https://example.com/categories/%E3%83%86%E3%82%B9%E3%83%88/'>
 
-<link rel="stylesheet" href="/scss/style.min.b2944aefbc8b344c6292fb41518c34f1bd83bcd18dcd140857d69eb44e5fe98f.css"><meta property='og:title' content="Category: テスト - 降雨机率">
+<link rel="stylesheet" href="/scss/style.min.c10815201ccb3a68d6b7af6ed6cd483fa09eee878b2c70a49e13dc771e8d3a67.css"><meta property='og:title' content="Category: テスト - 降雨机率">
 <meta property='og:description' content="请在此处有序领取本影院排片表">
 <meta property='og:url' content='https://example.com/categories/%E3%83%86%E3%82%B9%E3%83%88/'>
 <meta property='og:site_name' content='降雨机率'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2026-01-09T18:08:15&#43;08:00 '/>
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2026-01-10T00:00:00&#43;00:00 '/>
 <meta name="twitter:title" content="Category: テスト - 降雨机率">
 <meta name="twitter:description" content="请在此处有序领取本影院排片表"><link rel="alternate" type="application/rss&#43;xml" href="https://example.com/categories/%E3%83%86%E3%82%B9%E3%83%88/index.xml">
     <link rel="shortcut icon" href="/favicon.ico" />
+
+<link rel="stylesheet" href="/css/custom.css">
+
+<script src="/js/remove-left-text.js"></script>
 
     </head>
     <body class="">
@@ -95,7 +99,7 @@
         
         
         <li >
-            <a href='/%E5%85%B3%E4%BA%8E/' >
+            <a href='/%E5%8D%9A%E5%AE%A2%E7%AE%80%E4%BB%8B%E8%BF%99%E7%A7%8D%E4%B8%9C%E8%A5%BF%E7%9C%8B%E4%B8%A4%E6%AC%A1%E4%BB%A5%E4%B8%8A%E6%98%AF%E8%A6%81%E8%83%8C%E8%AF%B5%E5%90%97/' >
                 
                 
                 
@@ -128,7 +132,7 @@
 
 
                 
-                <span>Archives</span>
+                <span>归纳</span>
             </a>
         </li>
         
@@ -278,13 +282,20 @@
 
     <div class="tagCloud-tags">
         
-            <a href="/categories/test/" class="font_size_1">
-                Test
+            <a href="/categories/25%E5%B9%B4%E5%8A%A8%E7%94%BB/" class="font_size_1">
+                  25年动画 (1)
             </a>
+
+        
+            <a href="/categories/test/" class="font_size_1">
+                  Test (1)
+            </a>
+
         
             <a href="/categories/%E6%B5%8B%E8%AF%95/" class="font_size_1">
-                测试
+                  测试 (1)
             </a>
+
         
     </div>
 </section>
@@ -306,6 +317,10 @@
     <h2 class="widget-title section-title">标签云</h2>
 
     <div class="tagCloud-tags">
+        
+            <a href="/tags/%E6%97%A5%E8%85%90/">
+                日腐
+            </a>
         
     </div>
 </section>
@@ -341,13 +356,42 @@
         
         2026 3pm4am
     </section>
+
+
+<section class="running-time">
+本博客已稳定运行
+<span id="runningdays" class="running-days"></span>
+</section>
+
+
+<section class="totalcount">
     
-    <section class="powerby">
+    
         
-            恭喜您完成主线任务：【发现跳跃点】。将发布新的支线任务：【点击页码回溯时空】 <br/>
-        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
-        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.33.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
-    </section>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    发表了2篇文章 · 
+    总计1.75k字
+</section>
+    
+<section class="powerby">
+    使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+    主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.33.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+</section>
+
+
+
+
+
 </footer>
 
 
@@ -509,13 +553,44 @@
 </style>
 
 
-<style>
-body {
-  background: url("/background/ds.png") no-repeat center top;
-  background-size: cover;
-  background-attachment: fixed;
-}
-</style>
+
+<script>
+    let s1 = '2026-1-9'; 
+    s1 = new Date(s1.replace(/-/g, "/"));
+    let s2 = new Date();
+    let timeDifference = s2.getTime() - s1.getTime();
+
+    let days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+    let hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    let minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+
+    let result = days + "天" + hours + "小时" + minutes + "分钟";
+    document.getElementById('runningdays').innerHTML = result;
+</script>
+        
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     </body>

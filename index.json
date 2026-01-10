@@ -1,0 +1,20 @@
+[
+  {
+    "title": "My First Post",
+    "date": "2026-01-09",
+    "url": "/p/my-first-post/",
+    "categories": "25年动画"
+  },
+  {
+    "title": "Chinese Test",
+    "date": "2020-09-09",
+    "url": "/p/test-chinese/",
+    "categories": ["Test","测试"]
+  }]
+
+const categoryColors = {
+  "25年动画": "#ff6b6b",
+  "25年漫画": "#4dabf7",
+  "25年剧集": "#51cf66",
+  "25年电影": "#fcc419"
+};
