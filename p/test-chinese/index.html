@@ -744,5 +744,40 @@
 
 
 
+<script>
+
+(function() {
+    
+    function setBg() {
+        var scheme = document.documentElement.getAttribute('data-scheme') || 'light';
+        var img = scheme === 'dark' ? '/dr.png' : '/ds.png';
+        
+        document.body.style.cssText += 
+            'background-image: url("' + img + '") !important;' +
+            'background-size: cover !important;' +
+            'background-attachment: fixed !important;' +
+            'background-position: center !important;' +
+            'background-repeat: no-repeat !important;' +
+            'min-height: 100vh !important;' +
+            'background-color: transparent !important;';
+    }
+    
+    
+    setBg();
+    
+    
+    setInterval(setBg, 1000);
+    
+    
+    var originalSwitch = window.switchThemeScheme;
+    if (typeof originalSwitch === 'function') {
+        window.switchThemeScheme = function() {
+            originalSwitch.apply(this, arguments);
+            setTimeout(setBg, 100);
+        };
+    }
+})();
+</script>
+
     </body>
 </html>

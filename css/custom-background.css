@@ -1,0 +1,27 @@
+/* 亮色模式背景 */
+html[data-scheme="light"] body {
+    background-image: url('/ds.png') !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    min-height: 100vh !important;
+    background-color: transparent !important;
+}
+
+/* 暗色模式背景 */
+html[data-scheme="dark"] body {
+    background-image: url('/dr.png') !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    min-height: 100vh !important;
+    background-color: transparent !important;
+}
+
+/* 覆盖所有可能的背景设置 */
+body[style] {
+    background-image: inherit !important;
+    background-color: transparent !important;
+}
